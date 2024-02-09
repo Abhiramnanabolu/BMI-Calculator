@@ -91,7 +91,7 @@ this.setState({ des: description });
     const {res,c,des}=this.state
 
     return (
-      <div className="w-screen h-screen bg-neutral-950 p-12 font-[Poppins]">
+      <div className="w-screen min-h-screen bg-neutral-950 p-12 font-[Poppins]">
         <h1 className="mx-auto text-white font-[Poppins] text-3xl font-semibold mb-3">BMI Calculator</h1>
         <p className="font-poppins text-gray-500 font-semibold text-lg">Body mass index (BMI) is a measure of your weight relative to your height and functions as a rough estimate of body fat. When you enter your height and weight into a BMI calculator, you’ll get a number. That number is one way to gauge if you have a healthy or unhealthy weight.</p>
         <form className="flex flex-col mt-10" onSubmit={this.cal}>
